@@ -6,8 +6,6 @@
 
 ## Clone repository
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```cmd
 git clone https://github.com/akjha992/python-flask-mysql-wallet-app.git
 cd python-flask-mysql-wallet-app
