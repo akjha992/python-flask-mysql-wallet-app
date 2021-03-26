@@ -1,0 +1,21 @@
+Create a wallet transaction system, like paytm, using python/java programming language and any web framework of your choice.
+
+Entities
+Wallet
+User - (phone number or some unique identifier no additional fields required)
+
+
+Expose apis for
+Create Wallet for a User
+Credit money to wallet
+Debit money from wallet
+Get current Balance
+
+Restrictions
+Every Wallet should have minimum balance of X amount, any debit transaction that makes the wallet balance less than X amount should not be allowed
+
+
+Additional Features
+Keep log of all credit & debit transactions on a wallet
+
+Bonus Points for handling Race Conditions, where multiple debit transactions might be initiated on the same wallet.
