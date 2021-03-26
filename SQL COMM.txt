@@ -1,0 +1,15 @@
+CREATE DATABASE WALLET_TRANSACTION_SYSTEM;
+
+USE WALLET_TRANSACTION_SYSTEM
+
+CREATE TABLE Wallet (
+    PhoneNumber varchar(255) NOT NULL PRIMARY KEY,
+    Balance double NOT NULL
+);
+
+CREATE TABLE Transactions (
+    TransactionID int  AUTO_INCREMENT PRIMARY KEY,
+    PhoneNumber varchar(255) NOT NULL,
+    Amount double,
+    FOREIGN KEY (PhoneNumber) REFERENCES Wallet(PhoneNumber)
+);
