@@ -9,6 +9,9 @@
 ```cmd
 git clone https://github.com/akjha992/python-flask-mysql-wallet-app.git
 cd python-flask-mysql-wallet-app
+pip3 install flask
+pip3 install flask-mysqldb
+pip3 install pyyaml
 ```
 
 ## Create Database in MySQL DB
