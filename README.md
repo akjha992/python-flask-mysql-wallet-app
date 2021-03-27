@@ -4,7 +4,7 @@
 * [Install  Python](https://www.python.org/downloads/)
 * [Install Mysql](https://dev.mysql.com/downloads/installer/)
 
-## Clone repository
+## Clone repository & install required packages
 
 ```cmd
 git clone https://github.com/akjha992/python-flask-mysql-wallet-app.git
